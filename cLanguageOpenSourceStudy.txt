@@ -1,0 +1,18 @@
+1. redis:
+	A. 入口在server.c
+	B. zmalloc.c使用stdio.h, stdlib.h以及malloc()等功能建立了自己的動態記憶體管理機制, 實現某種程度上的優化.
+
+
+2. mazu-editor, an open souce small text editor:
+	https://github.com/jserv/mazu-editor	
+
+3. linux
+
+	A. 入口:
+		linux/arch/x86/boot/header.S, linux/arch/x86/boot/main.c
+
+
+4. xv6-riscv, 一個類unix作業系統(教學用, 沒那麼複雜, 可以研究, 且似乎和qemu有關):
+	https://github.com/mit-pdos/xv6-riscvA
+	
+

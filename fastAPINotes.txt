@@ -1,0 +1,10 @@
+1. 先安裝python, pip
+2. 安裝virtualenv
+3. virtualenv testenv啟動測試用的虛擬環境, 
+4.  進入testenv/bin使用"source activate"啟動虛擬環境,之後所有與python相關的設定和依賴都在testenv中進行, 不須擔心弄髒實際環境
+5.  安裝poetry
+6. 使用poetry init, 使之生成toml檔
+7. toml中是poetry幫你維護的依賴package, 你可以手動增加依賴
+8. 之後使用poetry install將依賴安裝, 這個過程會生成lock檔
+9. 有了lock檔案就可以使用docker(搭配poetry), 啟動後端container
+10. 安裝postman(最常用的測試http api的工具)
