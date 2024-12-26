@@ -6,8 +6,8 @@
   * **Second Law**: Define $$F = ma = {dP \over dt} $$
   * **Third Law**: Every action (force) in nature there is an equal and opposite reaction
   * The above three laws are actually equivalent with each others, **conversation of momentum**. The situation is as follows:
-    * The Law of Inertia states that no force no acceleration, and with force with acceleration, which is exactly the same thing as F=ma. Therefore, the first law is equivalent to the second law.
-    * The second law, F=ma or F=dP/dt, indicates that without force, there is no change in momentum, which is conservation of momentum. Hence, the second law is equivalent to the conservation of momentum.
+    * The Law of Inertia states that no force no acceleration, and with force with acceleration, which is exactly the same thing as $$F = ma$$. Therefore, the first law is equivalent to the second law.
+    * The second law, $$F = ma = {dP \over dt}, indicates that without force, there is no change in momentum, which is conservation of momentum. Hence, the second law is equivalent to the conservation of momentum.
     * Assuming "spatial symmetry (including translational symmetry, rotational symmetry)" holds, consider basic particles A and B. If they are the same type of particle (assuming homogeneity), they have identical properties but different states of motion. If particle A exerts an attractive force on particle B, then particle B must exert an equal and opposite force on particle A due to their identical properties and adherence to spatial symmetry (this mutual attraction has no primary or secondary; both are active participants). This situation is equivalent to the third law. The macroscopic world is composed of microscopic particles, thus it must also follow the third law. Therefore, conservation of momentum is equivalent to the third law (if spatial symmetry and particle homogeneity hold) which implies the second laws is equivalent to the third law.
 
 # Chapter_3. Newton's law of Universal Gravitation
@@ -16,7 +16,7 @@
       * Newton chose an inverse square laws because it fits Kepler's law of Planetary motion. Here's how it is:
         * For a uniform circular orbit of radius r, the acceleration is 
         * $$
-          a = \omega^2r, \omega = 2\pi \over T, --> (A)
+          a = \omega^2r, \omega = {2\pi \over T}, --> (A)
           $$
         * where T is the orbital period. Comparing eq. (A) with Kepler's third law
         * $$
