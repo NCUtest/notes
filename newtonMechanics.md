@@ -3,7 +3,7 @@
 
 # Chapter_2. Newton's three laws of motion
   * **First Law**: Law of Inertia
-  * **Second Law**: Define $$F = ma$$ or $$F=dP \over dt
+  * **Second Law**: Define $$F = ma$$ or $$F=dP \over dt $$
   * **Third Law**: Every action (force) in nature there is an equal and opposite reaction
   * The above three laws are actually equivalent with each others, **conversation of momentum**. The situation is as follows:
     * The Law of Inertia states that no force no acceleration, and with force with acceleration, which is exactly the same thing as F=ma. Therefore, the first law is equivalent to the second law.
