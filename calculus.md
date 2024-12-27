@@ -8,8 +8,6 @@
 ```math
 {2 \over \pi} = {{1 \cdot 3} \over {2 \cdot 2}} \cdot {{3 \cdot 5} \over {4 \cdot 4}} \cdot {{5 \cdot 7} \over {6 \cdot 6}} \cdot
 ```
-
-    ## test
-    * Wallis produced a method to sum infinitesimal quantities and determine the area enclosed by curves.
+  Wallis produced a method to sum infinitesimal quantities and determine the area enclosed by curves.
   * How Calculus created?
     * One thing to keep in mind is that Calculus is nothing more than an updated version of the Method of Exhuastion, but now it specifically deal with **Functions**. People have played algebra, geometry, and arithmetic for a long time. In 17th centuries, science was born and started to join the game. Many math problems were being researched again, like finding area of a shape, finding the length of curve or volume of some solid body. Most of them were written in algebraic expressions and equations. So a problem may like this in that time: How do we computer the area under a unit circle curve which is express as $\sqrt{1-x^2}$ under first quadrant of cartesian coordinates? We can use the Method of Exhaustion, take n number of small rectangles under the curve, and when n increases the more accurate the area we computer.   The term "Function" is created by Lebniz in 1694
