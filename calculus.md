@@ -1,4 +1,4 @@
-<ul style="list-style-type:none;"> 
+<ul style="list-style:none;"> 
   <li>Item without bullet</li> 
   <li>Another item without bullet</li> 
 </ul>
