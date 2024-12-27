@@ -1,7 +1,3 @@
-<ul style="list-style:none;"> 
-  <li>Item without bullet</li> 
-  <li>Another item without bullet</li> 
-</ul>
 # Chapter_1. Brief History
   * ## Definition:
     * Calculus, originally called infinitesimal calculus, is a mathematical discipline focused on limits, continuity, derivatives, integrals, and infinite series. 
@@ -12,7 +8,9 @@
 {2 \over \pi} = {{1 \cdot 3} \over {2 \cdot 2}} \cdot {{3 \cdot 5} \over {4 \cdot 4}} \cdot {{5 \cdot 7} \over {6 \cdot 6}} \cdot...
 ```
   
-    * Earlier in 1593, Vieta found another infinite product which gives $\pi$
+<ul style="list-style:none;"> 
+  <li>Earlier in 1593, Vieta found another infinite product which gives $\pi$</li> 
+</ul>
 
 ```math
 {2 \over \pi} = \sqrt{1 \over 2} \cdot \sqrt{{1 \over 2}+{1 \over 2} \cdot \sqrt{1 \over 2}} \cdot \sqrt{{1 \over 2}+{1 \over 2} \cdot {\sqrt{{1 \over 2}+{1 \over 2} \cdot \sqrt{1 \over 2}}}}... 
