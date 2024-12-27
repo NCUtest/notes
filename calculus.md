@@ -1,4 +1,3 @@
-      this is test
 # Chapter_1. Brief History
   * ## Definition:
     * Calculus, originally called infinitesimal calculus, is a mathematical discipline focused on limits, continuity, derivatives, integrals, and infinite series. 
@@ -9,8 +8,8 @@
 ```math
 {2 \over \pi} = {{1 \cdot 3} \over {2 \cdot 2}} \cdot {{3 \cdot 5} \over {4 \cdot 4}} \cdot {{5 \cdot 7} \over {6 \cdot 6}} \cdot
 ```
-
-<br>
+```
+```
 
       Wallis produced a method to sum infinitesimal quantities and determine the area enclosed by curves.
   * How Calculus created?
