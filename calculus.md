@@ -8,8 +8,8 @@
 {2 \over \pi} = {{1 \cdot 3} \over {2 \cdot 2}} \cdot {{3 \cdot 5} \over {4 \cdot 4}} \cdot {{5 \cdot 7} \over {6 \cdot 6}} \cdot...
 ```
   
-<ul style="list-style:none;"> 
-  <li>Earlier in 1593, Vieta found another infinite product which gives $\pi$</li> 
+<ul style="list-style-type:none; padding-left: 0"> 
+  <li style="padding-left: 20px;">Earlier in 1593, Vieta found another infinite product which gives $\pi$</li> 
 </ul>
 
 ```math
