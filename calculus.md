@@ -1,3 +1,4 @@
+li {list-style-type: none;}
 # Chapter_1. Brief History
   * ## Definition:
     * Calculus, originally called infinitesimal calculus, is a mathematical discipline focused on limits, continuity, derivatives, integrals, and infinite series. 
