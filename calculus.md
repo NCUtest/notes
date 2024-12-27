@@ -8,6 +8,7 @@
 ```math
 {2 \over \pi} = {{1 \cdot 3} \over {2 \cdot 2}} \cdot {{3 \cdot 5} \over {4 \cdot 4}} \cdot {{5 \cdot 7} \over {6 \cdot 6}} \cdot
 ```
+
     ## test
     * Wallis produced a method to sum infinitesimal quantities and determine the area enclosed by curves.
   * How Calculus created?
