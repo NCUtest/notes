@@ -1,6 +1,6 @@
 # Chapter 1: Brief History
 
-![Canvas Animation](https://yourusername.github.io/your-repository/animation.html)
+![Canvas Animation](https://github.com/NCUtest/notes/blob/master/testAnimation.html)
 
 Definition:
 -----------
