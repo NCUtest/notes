@@ -53,4 +53,4 @@ ax.annotate(r"$\longleftarrow\text{n+1}\longrightarrow$", xy=(-0.05, 0.5), xycoo
 #ax.text(-0.1, 1, r"$\longleftarrow\text{n+1}\longrightarrow$", ha='center', va='center', fontsize=12, rotation='vertical')
 
 # Save the figure
-plt.savefig('/mnt/c/Users/user/Desktop/wujiaqi_personal_files/notes/images/testImage.svg', format='svg', bbox_inches='tight', pad_inches=0)
+plt.savefig('/mnt/c/Users/user/Desktop/wujiaqi_personal_files/notes/images/calculusNotes_figure_1.svg', format='svg', bbox_inches='tight', pad_inches=0)
