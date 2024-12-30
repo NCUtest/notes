@@ -38,7 +38,7 @@ ax.text(1, 2.5, '1+2', ha='center', va='center')
 ax.text(4.5, 1.5, '$3^2$', ha='center', va='center')
 ax.text(3, 3.5, '1+2+3', ha='center', va='center')
 ax.text(8, 2, '$4^2$', ha='center', va='center')
-ax.text(5, 4.5, '4', ha='center', va='center')
+ax.text(5, 4.5, '1+2+3+4', ha='center', va='center')
 
 # Add custom axis labels with arrows
 #ax.annotate('', xy=(0, -0.1), xytext=(4, 0), arrowprops=dict(arrowstyle='<->'))
