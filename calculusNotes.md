@@ -12,11 +12,11 @@ Before Calculus even existed, people deal with infinite problems with **Method o
 
 After the decline of ancient Greek civilization, Europe entered the Dark Ages. The spark of Greek civilization was preserved and studied by the Arabs. Alhazen (965 AD - 1039 AD) was an outstanding mathematician and physicist of the ancient Arab era. He delved into a vast array of ancient Greek mathematics, including infinite sequences and series, as well as the summation of powers of natural numbers. By combining geometry and algebra, he successfully derived and explained the summation formulas of powers of natural numbers in an intuitive geometric manner. 
 
-Let's first consider the summation $\sum_{i=1}^{n}{i^k}$ where k is only for natural number. When the k=1, the summation is $1+2+3+4+...$, Alhazen tried to use area to represent the algebraic summation like below: 
+Let's first consider the summation $\sum_{i=1}^{n}{i^k}$ where k is only for natural number. When the k=1, the summation is $1+2+3+4+...$, Alhazen invoke geometry area to represent the algebraic summation like below: 
 
-![test](./images/testImage.svg)
+![test](./images/testImage.svg)Figure.1
 
-As you can see That the total area 
+As you can see That the total area is
 
 ```math
 n(n+1) = \sum_{i=1}^{n}{i} + \sum_{i=1}^{n}{i} 
@@ -25,8 +25,10 @@ n(n+1) = \sum_{i=1}^{n}{i} + \sum_{i=1}^{n}{i}
 and so 
 
 ```math
-\sum_{i=1}^{n}{i} = {n(n+1) \over 2}
+\sum_{i=1}^{n}{i} = {n(n+1) \over 2} = {1 \over 2}n^2 + {1 \over 2}n
 ```
+
+let's take k=1
 
 In 1656, John Wallis published his Arithemtica infinitorum, in which he displayed many ideas that were to lead to the integral calculus of Newton, including the famous **Wallis Product** which gives below (check 
 [reference1: a paper talks about this](https://www.jstor.org/stable/25759727?seq=1) 
