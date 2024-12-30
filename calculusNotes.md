@@ -99,6 +99,24 @@ And so
 \sum_{i=1}^{n}{i^3} = {1 \over 4}n^4 + {1 \over 2}n^3 + {1 \over 4}n^2
 ```
 
+The summation of $k=4, 5, 6...$ is using the same idea. It's easy to find the summation pattern:
+
+```math
+\sum_{i=1}^{n}{i} = {n(n+1) \over 2} = {1 \over 2}n^2 + {1 \over 2}n
+```
+```math
+\sum_{i=1}^{n}{i^2} = {1 \over 3} n^3 + {1 \over 2} n^2 + {1 \over 6} n
+
+```
+```math
+\sum_{i=1}^{n}{i^3} = {1 \over 4}n^4 + {1 \over 2}n^3 + {1 \over 4}n^2
+```
+```math
+\sum_{i=1}^{n}{i^4} = {1 \over 5}n^5 + {1 \over 2}n^4 + {1 \over 3}n^3 - {1 \over 30}n
+```
+
+The pattern is the coefficient of first term(highest power term) of the summation is ${1 \over (k+1)}$
+
 
 In 1656, John Wallis published his Arithemtica infinitorum, in which he displayed many ideas that were to lead to the integral calculus of Newton, including the famous **Wallis Product** which gives below (check 
 [reference1: a paper talks about this](https://www.jstor.org/stable/25759727?seq=1) 
