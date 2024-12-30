@@ -46,7 +46,7 @@ ax.text(5, 4.5, '4', ha='center', va='center')
 
 # Add labels with arrows
 ax.annotate(r"$\longleftarrow\sum_{i=1}^{n}i\longrightarrow$", xy=(0.5, -0.15), xycoords='axes fraction', ha='center', va='center', fontsize=12)
-ax.annotate(r"$\longleftarrow\text{n}\longrightarrow$", xy=(-0.05, 0.5), xycoords='axes fraction', ha='center', va='center', fontsize=12, rotation='vertical')
+ax.annotate(r"$\longleftarrow\text{n+1}\longrightarrow$", xy=(-0.05, 0.5), xycoords='axes fraction', ha='center', va='center', fontsize=12, rotation='vertical')
 
 # Add labels with arrows
 #ax.text(1, -0.1, r"$\longleftarrow\text{n}\longrightarrow$", ha='center', va='center', fontsize=12) 
