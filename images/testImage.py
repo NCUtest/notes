@@ -24,6 +24,9 @@ for rect in rectangles:
 ax.set_xlim(0, 4)
 ax.set_ylim(0, 5)
 
+# set the unit length of x and y be the same
+ax.set_aspect("equal")
+
 # turn off axis
 ax.axis('off')
 
