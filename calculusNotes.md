@@ -30,7 +30,7 @@ and so
 \sum_{i=1}^{n}{i} = {n(n+1) \over 2} = {1 \over 2}n^2 + {1 \over 2}n
 ```
 
-let's move on and take $k=2, 3, 4$, the image is like below
+let's move on and take $k=2$, the image is like below
 
 ![figure_2](./images/calculusNotes_figure_2.svg)
 
@@ -43,9 +43,7 @@ The total area is
 \left( \sum_{i=1}^{n}{i} \right) \left( n+1 \right) = \sum_{i=1}^{n}{i^2} + \sum_{i=1}^{n}{ \left( \sum_{k=1}^{i}{k} \right) }
 ```
 
-<br>
-And we want to find $\sum_{i=1}^{n}{i^2}$
-<br>
+And we want to find $\sum_{i=1}^{n}{i^2}$, so we can do
 
 ```math
 \left( {1 \over 2} n^2 + {1 \over 2} n \right) \left( n+1 \right) = \sum_{i=1}^{n}{i^2} + \sum_{i=1}^{n}{ \left( {1 \over 2} i^2 + {1 \over 2} i \right) }
@@ -63,6 +61,14 @@ and so
 \sum_{i=1}^{n}{i^2} = {1 \over 3} n^3 + {1 \over 2} n^2 + {1 \over 6} n
 
 ```
+
+let's move on and take $k=3$, the image is like below
+
+![figure_3](./images/calculusNotes_figure_3.svg)
+
+Figure_3
+
+
 
 In 1656, John Wallis published his Arithemtica infinitorum, in which he displayed many ideas that were to lead to the integral calculus of Newton, including the famous **Wallis Product** which gives below (check 
 [reference1: a paper talks about this](https://www.jstor.org/stable/25759727?seq=1) 
