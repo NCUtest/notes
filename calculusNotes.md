@@ -14,7 +14,7 @@ After the decline of ancient Greek civilization, Europe entered the Dark Ages. T
 
 Let's first consider the summation $\sum_{i=1}^{n}{i^k}$ where k is only for natural number. When the k=1, the summation is $1+2+3+4+...$, Alhazen invoke geometry area to imagine and calculate the algebraic summation like below: 
 
-![test](./images/calculusNotes_figure_1.svg)
+![figure_1](./images/calculusNotes_figure_1.svg)
 
 Figure_1
 
@@ -31,6 +31,8 @@ and so
 ```
 
 let's move on and take $k=2, 3, 4$, the image is like below
+
+![figure_2](./images/calculusNotes_figure_2.svg)
 
 In 1656, John Wallis published his Arithemtica infinitorum, in which he displayed many ideas that were to lead to the integral calculus of Newton, including the famous **Wallis Product** which gives below (check 
 [reference1: a paper talks about this](https://www.jstor.org/stable/25759727?seq=1) 
