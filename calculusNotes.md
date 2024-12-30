@@ -40,9 +40,9 @@ Figure_2
 The total area is
 
 ```math
-\(\sum_{i=1}^{n}{i}\) \(n+1\) = \sum_{i=1}^{n}{i^2} + \sum_{i=1}^{n}{\(\sum_{k=1}^{i}{k}\) }
-\({1 \over 2} n^2 + {1 \over 2} n \( n+1 \) = \sum_{i=1}^{n}{i^2} + \sum_{i=1}^{n}{{1 \over 2} i^2 + {1 \over 2} i}
-{1 \over 2} n^3 + n^2 + {1 \over 2} n = \sum_{i=1}^{n}{i^2} + {1 \over 2} \sum_{i=1}^{n}{i^2} + {1 \over 2} \( {1 \over 2} n^2 + {1 \over 2} n \)
+\left\sum_{i=1}^{n}{i}\right \left n+1 \right = \sum_{i=1}^{n}{i^2} + \sum_{i=1}^{n}{\left \sum_{k=1}^{i}{k} \right ) }
+\left{1 \over 2} n^2 + {1 \over 2} n \right \left n+1 \right = \sum_{i=1}^{n}{i^2} + \sum_{i=1}^{n}{{1 \over 2} i^2 + {1 \over 2} i}
+{1 \over 2} n^3 + n^2 + {1 \over 2} n = \sum_{i=1}^{n}{i^2} + {1 \over 2} \sum_{i=1}^{n}{i^2} + {1 \over 2} \left {1 \over 2} n^2 + {1 \over 2} n \right 
 {1 \over 2} n^3 + {3 \over 4} n^2 + {1 \over 4} n = {3 \over 2} \sum_{i=1}^{n}{i^2}
 
 and so
