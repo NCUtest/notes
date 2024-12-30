@@ -34,6 +34,23 @@ let's move on and take $k=2, 3, 4$, the image is like below
 
 ![figure_2](./images/calculusNotes_figure_2.svg)
 
+Figure_2
+
+
+The total area is
+
+```math
+\(\sum_{i=1}^{n}{i}\) \(n+1\) = \sum_{i=1}^{n}{i^2} + \sum_{i=1}^{n}{\(\sum_{k=1}^{i}{k}\) }
+\({1 \over 2} n^2 + {1 \over 2} n \( n+1 \) = \sum_{i=1}^{n}{i^2} + \sum_{i=1}^{n}{{1 \over 2} i^2 + {1 \over 2} i}
+{1 \over 2} n^3 + n^2 + {1 \over 2} n = \sum_{i=1}^{n}{i^2} + {1 \over 2} \sum_{i=1}^{n}{i^2} + {1 \over 2} \( {1 \over 2} n^2 + {1 \over 2} n \)
+{1 \over 2} n^3 + {3 \over 4} n^2 + {1 \over 4} n = {3 \over 2} \sum_{i=1}^{n}{i^2}
+
+and so
+
+\sum_{i=1}^{n}{i^2} = {1 \over 3} n^3 + {1 \over 2} n^2 + {1 \over 6} n
+
+```
+
 In 1656, John Wallis published his Arithemtica infinitorum, in which he displayed many ideas that were to lead to the integral calculus of Newton, including the famous **Wallis Product** which gives below (check 
 [reference1: a paper talks about this](https://www.jstor.org/stable/25759727?seq=1) 
 [reference2: Mathematitcal_Intention_Wallis, another paper talks about this](https://www.quadrivium.info/GGB/WallisTable.html) 
