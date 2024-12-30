@@ -14,7 +14,9 @@ After the decline of ancient Greek civilization, Europe entered the Dark Ages. T
 
 Let's first consider the summation $\sum_{i=1}^{n}{i^k}$ where k is only for natural number. When the k=1, the summation is $1+2+3+4+...$, Alhazen invoke geometry area to imagine and calculate the algebraic summation like below: 
 
-![figure_1](./images/calculusNotes_figure_1.svg)
+<p align="center">
+  <img src="./images/calculusNotes_figure_1.svg"/>
+</p>
 
 Figure_1
 
@@ -32,7 +34,9 @@ and so
 
 let's move on and take $k=2$, the image is like below
 
-![figure_2](./images/calculusNotes_figure_2.svg)
+<p align="center">
+  <img src="./images/calculusNotes_figure_2.svg"/>
+</p>
 
 Figure_2
 
@@ -64,7 +68,9 @@ and so
 
 let's move on and take $k=3$, the image is like below
 
-![figure_3](./images/calculusNotes_figure_3.svg)
+<p align="center">
+  <img src="./images/calculusNotes_figure_1.svg"/>
+</p>
 
 Figure_3
 
