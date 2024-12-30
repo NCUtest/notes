@@ -118,10 +118,26 @@ The summation of $k=4, 5, 6...$ is using the same idea. There's an obvious patte
 \text{...}
 ```
 
-The pattern is the coefficient of first term(highest power term) of those summations are ${1 \over (k+1)}$
+The empirical pattern reveals that the coefficient of first term(the highest power term) of those summations are always ${1 \over (k+1)}$. By the way, since we use "geometric" perspective to visualize the summation of integer power, there's another intuitive way to imagine the summation
+  * For $k=1$, we are actually adding up the area of $1 \mdot n$ 2 dimensional rectangle.
 
+<p align="center">
+  <img src="./images/calculusNotes_figure_4.svg"/>
+</p>
 
-In 1656, John Wallis published his Arithemtica infinitorum, in which he displayed many ideas that were to lead to the integral calculus of Newton, including the famous **Wallis Product** which gives below (check 
+Figure_4
+
+  * For $k=2$, we are actually adding up the volume of $1 \mdot n^2$ 3 dimensional volumes
+
+<p align="center">
+  <img src="./images/calculusNotes_figure_5.svg"/>
+</p>
+
+Figure_5
+
+  * For $k=3$, we are actually adding up the $1 \mdot n^3$ 4 dimension hypervolume.(Not possible to draw)
+
+Hundreds of years are gone. In 1656, , John Wallis published his Arithemtica infinitorum, in which he displayed many ideas that were to lead to the integral calculus of Newton, including the famous **Wallis Product** which gives below (check 
 [reference1: a paper talks about this](https://www.jstor.org/stable/25759727?seq=1) 
 [reference2: Mathematitcal_Intention_Wallis, another paper talks about this](https://www.quadrivium.info/GGB/WallisTable.html) 
 [reference3: a discussion talk about the prove of generalized binomial theorem](https://www.reddit.com/r/math/comments/8vv21s/how_do_you_prove_the_binomial_theorem_for_all/)
