@@ -45,7 +45,7 @@ ax.text(15, 4.5, '1+4+9+16', ha='center', va='center')
 #ax.annotate('', xy=(-0.1, 0), xytext=(0, 5), arrowprops=dict(arrowstyle='<->'))
 
 # Add labels with arrows
-ax.annotate(r"$\longleftarrow\sum_{i=1}^{n}{i^2}\longrightarrow$", xy=(0.5, -0.15), xycoords='axes fraction', ha='center', va='center', fontsize=12)
+ax.annotate(r"$\longleftarrow\sum_{i=1}^{n}{i^2}\longrightarrow$", xy=(0.5, -0.25), xycoords='axes fraction', ha='center', va='center', fontsize=12)
 ax.annotate(r"$\longleftarrow\text{n+1}\longrightarrow$", xy=(-0.05, 0.5), xycoords='axes fraction', ha='center', va='center', fontsize=12, rotation='vertical')
 
 # Add labels with arrows
