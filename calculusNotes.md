@@ -119,7 +119,7 @@ The summation of $k=4, 5, 6...$ is using the same idea. There's an obvious patte
 ```
 
 The empirical pattern reveals that the coefficient of first term(the highest power term) of those summations are always ${1 \over (k+1)}$. By the way, since we use "geometric" perspective to visualize the summation of integer power, there's another intuitive way to imagine the summation
-  * For $k=1$, we are actually adding up the area of $1 \mdot n$ 2 dimensional rectangle.
+  * For $k=1$, we are actually adding up the area of $1 \cdot n$ 2 dimensional rectangle.
 
 <p align="center">
   <img src="./images/calculusNotes_figure_4.svg"/>
@@ -127,7 +127,7 @@ The empirical pattern reveals that the coefficient of first term(the highest pow
 
 Figure_4
 
-  * For $k=2$, we are actually adding up the volume of $1 \mdot n^2$ 3 dimensional volumes
+  * For $k=2$, we are actually adding up the volume of $1 \cdot n^2$ 3 dimensional volumes
 
 <p align="center">
   <img src="./images/calculusNotes_figure_5.svg"/>
@@ -135,7 +135,7 @@ Figure_4
 
 Figure_5
 
-  * For $k=3$, we are actually adding up the $1 \mdot n^3$ 4 dimension hypervolume.(Not possible to draw)
+  * For $k=3$, we are actually adding up the $1 \cdot n^3$ 4 dimension hypervolume.(Not possible to draw)
 
 Hundreds of years are gone. In 1656, , John Wallis published his Arithemtica infinitorum, in which he displayed many ideas that were to lead to the integral calculus of Newton, including the famous **Wallis Product** which gives below (check 
 [reference1: a paper talks about this](https://www.jstor.org/stable/25759727?seq=1) 
