@@ -175,7 +175,7 @@ Figure_7
 
 The area cover by $y^{1 \over k}=x$ should be 
 ```math
-1-{1 \over (k+1)} = {1 \over ({1 \over k} + 1}
+1-{1 \over {k+1}} = {1 \over {{1 \over k}+1}}
 ```
 
 
