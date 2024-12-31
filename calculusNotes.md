@@ -16,7 +16,6 @@ Let's first consider the summation $\sum_{i=1}^{n}{i^k}$ where k is only for nat
 
 <p align="center">
   <img src="./images/calculusNotes_figure_1.svg"/>
-  <span style="background-color: grey; color: white; padding: 2px 5px;">Figure_1</span>
 </p>
 
 Figure_1
@@ -37,8 +36,9 @@ let's move on and take $k=2$, the image is like below
 
 <p align="center">
   <img src="./images/calculusNotes_figure_2.svg"/>
-  <span style="background-color: grey; color: white; padding: 2px 5px;">Figure_2</span>
 </p>
+
+Figure_2
 
 
 The total area is
@@ -70,9 +70,9 @@ let's move on and take $k=3$, the image is like below
 
 <p align="center">
   <img src="./images/calculusNotes_figure_3.svg"/>
-  <span style="background-color: grey; color: white; padding: 2px 5px;">Figure_3</span>
 </p>
 
+Figure_3
 
 
 At this point, we can find the pattern, and the total area is
@@ -128,15 +128,22 @@ The empirical pattern reveals that the coefficient of first term(the highest pow
 
 Figure_4
 
+
   * For $k=2$, we are actually adding up the volume of $1 \cdot n^2$ 3 dimensional volumes
 
 <p align="center">
   <img src="./images/calculusNotes_figure_5.svg"/>
-  <span style="background-color: grey; color: white; padding: 2px 5px;">Figure_5</span>
 </p>
+
+Figure_5
 
 
   * For $k=3$, we are actually adding up the $1 \cdot n^3$ 4 dimension hypervolume.(Not possible to draw)
+
+Time flies, and in the blink of an eye, 6 hundred years have passed. In 1656, during the late Renaissance, John Wallis, an important professor of mathematics and physics at the University of Oxford in England, referred to Alhazen's research and made many extensions.
+
+First, he used Cartesian coordinates to reformulate the geometric description of the sum of natural numbers raised to k-th power. He transfomed $\sum_{i=1}^{n}{i^k}$ into $y=x^k$. And n becomes sufficiently large, the area under the curve $y=x^k$ closely approximates the sum $\sum_{i=1}^{n}{i^k}$.
+
 
 Hundreds of years are gone. In 1656, , John Wallis published his Arithemtica infinitorum, in which he displayed many ideas that were to lead to the integral calculus of Newton, including the famous **Wallis Product** which gives below (check 
 [reference1: a paper talks about this](https://www.jstor.org/stable/25759727?seq=1) 
