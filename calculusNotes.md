@@ -163,7 +163,9 @@ As Figure_6 shows, Wallis He selected a point on the curve $y=x^k$. The area of 
 
 If we cut the area under the curve into pieces of infinite small line segments, the summation of all the segments should follows the Alhazen's result too because there are infinite large terms. We've already known the result of Alhazen's summation $\sum_{i=1}^{n}{i^k}$. When $n$ is large enough, the summation should be lead by the first term which is ${1 \over (k+1)}$. So, obviously, when the area of rectangle is defined by 1, the ratio $\rho = {1 \over (1+k)}$ when n is large enough.
 
-This is nothing new here, but Wallis keeped move on, he tried to figure out if $\rho = {1 \over (1+k)}$ still keeps true when $k$ is not just integer but all real number.
+This is true for every **integer** point on the curve we choose, you can easily prove that. 
+
+Wallis keeped move on, he tried to figure out if $\rho = {1 \over (1+k)}$ still keeps true when $k$ is not just integer but all real number.
 
 First, He knew that when $k={1 \over 2}, {1 \over 3}, {1 \over 4}...$ then $\rho={1 \over (k+1)}$ keeps true. Because, for example $y = x^{1 \over 2}$ is just complementary to $y = x^2$. Actually if we rewrite $y=x^2$ as $y^{1 \over 2}=x$, then thing would be clear like the Figure_7 shows below. 
 
@@ -178,7 +180,8 @@ The area cover by $y^{1 \over k}=x$ should be
 1-{1 \over {k+1}} = {1 \over {{1 \over k}+1}}
 ```
 
-Wallis doesn't prove that $\rho={1 \over {k+1}}$ remains true for any real number $k$. He only provide the reasoning for inverse integers $1 \over k$ like above and then doing some empirical test for some real number $k$. 
+Wallis doesn't prove that $\rho={1 \over {k+1}}$ remains true for any real number $k$. He only provide the reasoning for inverse integers $1 \over k$ like above and then doing some empirical test for some real number $k$ to be more confident to believe that the pattern can be used in every real number $k$. 
+
 However, the idea can actually be proven by having some concept of "continuity". We know that every value of $y=x^{k+{1 \over 2}}$ is between $y=x^k$ and $y=x^{k+1}$. And the ratio $\rho(k+{1 \over 2})$ also between $\rho(k)$ and $\rho(k+1)$
 
 
