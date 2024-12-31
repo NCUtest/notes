@@ -178,7 +178,7 @@ The area cover by $y^{1 \over k}=x$ should be
 1-{1 \over {k+1}} = {1 \over {{1 \over k}+1}}
 ```
 
-Wallis doesn't prove that $\rho={1 \over {k+1}} remains true for any real number $k$. He only provide the reasoning for inverse integers $1 \over k$ like above and then doing some empirical test for some real number $k$. 
+Wallis doesn't prove that $\rho={1 \over {k+1}}$ remains true for any real number $k$. He only provide the reasoning for inverse integers $1 \over k$ like above and then doing some empirical test for some real number $k$. 
 However, the idea can actually be proven by having some concept of "continuity". We know that every value of $y=x^{k+{1 \over 2}}$ is between $y=x^k$ and $y=x^{k+1}$. And the ratio $\rho(k+{1 \over 2})$ also between $\rho(k)$ and $\rho(k+1)$
 
 
