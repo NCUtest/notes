@@ -161,9 +161,9 @@ Figure_6
 
 As Figure_6 shows, Wallis He selected a point on the curve $y=x^k$. The area of the rectangle which is defined as 1 formed by this point and the x- and y-axes, to the area under the curve and enclosed by the x- and y-axes.
 
-If we cut the area under the curve into pieces of infinite small line segments, the summation of all the segments should follows the Alhazen's result too because there are infinite large terms. We've already known the result of Alhazen's summation of integer with power k $\sum_{i=1}^{n}{i^k}. When n is large enough, the summation should be lead by the first term which is {1 \over (k+1) n^(k+1)}. So, obviously, the area ratio $\rho = {1 \over (1+k)}$ when n is large enough.
+If we cut the area under the curve into pieces of infinite small line segments, the summation of all the segments should follows the Alhazen's result too because there are infinite large terms. We've already known the result of Alhazen's summation of integer with power $k$ $\sum_{i=1}^{n}{i^k}$. When $n$ is large enough, the summation should be lead by the first term which is ${1 \over (k+1) n^(k+1)}$. So, obviously, the area ratio $\rho = {1 \over (1+k)}$ when n is large enough.
 
-This is nothing new here, Wallis's research is that if $\rho = {1 \over (1+k)}$ still keeps true when $k$ is not just ineger but all real number.
+This is nothing new here, but Wallis keeped move on, he researched that if $\rho = {1 \over (1+k)}$ still keeps true when $k$ is not just ineger but all real number.
 
 He sees that when $k={1 \over 2}, {1 \over 3}, {1 \over 4}...$ then $\rho={1 \over (k+1)}$ keeps true. Because, for example $y = x^{1 \over 2}$ is just complementary to $y = x^2$, as we know that $y=x^2$ can be written as $y^2=x$. 
 
