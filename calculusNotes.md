@@ -16,6 +16,7 @@ Let's first consider the summation $\sum_{i=1}^{n}{i^k}$ where k is only for nat
 
 <p align="center">
   <img src="./images/calculusNotes_figure_1.svg"/>
+  <span style="background-color: grey; color: white; padding: 2px 5px;">Figure_1</span>
 </p>
 
 Figure_1
@@ -36,9 +37,8 @@ let's move on and take $k=2$, the image is like below
 
 <p align="center">
   <img src="./images/calculusNotes_figure_2.svg"/>
+  <span style="background-color: grey; color: white; padding: 2px 5px;">Figure_2</span>
 </p>
-
-Figure_2
 
 
 The total area is
@@ -69,10 +69,10 @@ and so
 let's move on and take $k=3$, the image is like below
 
 <p align="center">
-  <img src="./images/calculusNotes_figure_1.svg"/>
+  <img src="./images/calculusNotes_figure_3.svg"/>
+  <span style="background-color: grey; color: white; padding: 2px 5px;">Figure_3</span>
 </p>
 
-Figure_3
 
 
 At this point, we can find the pattern, and the total area is
@@ -123,6 +123,7 @@ The empirical pattern reveals that the coefficient of first term(the highest pow
 
 <p align="center">
   <img src="./images/calculusNotes_figure_4.svg"/>
+  <span style="background-color: grey; color: white; padding: 2px 5px;">Figure_4</span>
 </p>
 
 Figure_4
@@ -131,9 +132,9 @@ Figure_4
 
 <p align="center">
   <img src="./images/calculusNotes_figure_5.svg"/>
+  <span style="background-color: grey; color: white; padding: 2px 5px;">Figure_5</span>
 </p>
 
-Figure_5
 
   * For $k=3$, we are actually adding up the $1 \cdot n^3$ 4 dimension hypervolume.(Not possible to draw)
 
