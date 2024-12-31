@@ -161,7 +161,7 @@ Figure_6
 
 As Figure_6 shows, Wallis He selected a point on the curve $y=x^k$. The area of the rectangle which is defined as 1 formed by this point and the x- and y-axes, to the area under the curve and enclosed by the x- and y-axes.
 
-If we cut the area under the curve into pieces of infinite small line segments, the summation of all the segments should follows the Alhazen's result too because there are infinite large terms. We've already known the result of Alhazen's summation \sum_{i=1}^{n}{i^k}$. When $n$ is large enough, the summation should be lead by the first term which is ${1 \over (k+1)}$. So, obviously, when the area of rectangle is defined by 1, the ratio $\rho = {1 \over (1+k)}$ when n is large enough.
+If we cut the area under the curve into pieces of infinite small line segments, the summation of all the segments should follows the Alhazen's result too because there are infinite large terms. We've already known the result of Alhazen's summation $\sum_{i=1}^{n}{i^k}$. When $n$ is large enough, the summation should be lead by the first term which is ${1 \over (k+1)}$. So, obviously, when the area of rectangle is defined by 1, the ratio $\rho = {1 \over (1+k)}$ when n is large enough.
 
 This is nothing new here, but Wallis keeped move on, he tried to figure out if $\rho = {1 \over (1+k)}$ still keeps true when $k$ is not just ineger but all real number.
 
