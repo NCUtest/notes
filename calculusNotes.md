@@ -201,7 +201,7 @@ First he defined the general form $y=\left( r^{1 \over q} + x^{1 \over q} \right
 Figure_9
 
 
-At this point Wallis temporarily abandoned both the geometric and algebraic representations and began to work solely in the table representation. The question then became, how does one interpolate the missing values in this table? His interpolate idea is based on that he trust the same pattern a row has should be follow by the missing value on that row. Here's the pattern he found:
+At this point Wallis temporarily abandoned both the geometric and algebraic representations and began to work solely in the table representation. The question then became, how does one interpolate the missing values in this table? His interpolate idea is based on that he trust the same pattern a row has should be follow by the missing value on that row. Figure_10 is the pattern he found:
 
 <p align="center">
   <img src="./images/calculusNotes_figure_10.svg"/>
@@ -209,6 +209,14 @@ At this point Wallis temporarily abandoned both the geometric and algebraic repr
 
 Figure_10
 
+
+Expand the fraction numbers, we get the result of Figure_11
+
+<p align="center">
+  <img src="./images/calculusNotes_figure_11.svg"/>
+</p>
+
+Figure_11
 
 You can see that the table is symmetric along the diagonal elements.
 
