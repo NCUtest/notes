@@ -180,10 +180,31 @@ The area cover by $y^{1 \over k}=x$ should be
 1-{1 \over {k+1}} = {1 \over {{1 \over k}+1}}
 ```
 
-Wallis doesn't prove that $\rho={1 \over {k+1}}$ remains true for any real number $k$. He only provide the reasoning for inverse integers $1 \over k$ like above and then doing some empirical test for some real number $k$ to be more confident to believe that the pattern can be used in every real number $k$. 
+Wallis doesn't prove that $\rho={1 \over {k+1}}$ remains true for any real number $k$. He only provide the reasoning for inverse integers $1 \over k$ like above and then doing some empirical tests for some real number $k$ to be more confident to believe that the pattern can be used in every real number $k$. (However, I think the idea of "continuity" may work to provide a proof.) 
 
-However, the idea can actually be proven by having some concept of "continuity". We know that every value of $y=x^{k+{1 \over 2}}$ is between $y=x^k$ and $y=x^{k+1}$. And the ratio $\rho(k+{1 \over 2})$ also between $\rho(k)$ and $\rho(k+1)$
+One of the tests is finding the ratio of area under the curve of a circle curve which is $y=\sqrt{r^2-x^2}$ in first quadrant of cartesian coordinates. 
 
+<p align="center">
+  <img src="./images/calculusNotes_figure_8.svg"/>
+</p>
+
+Figure_8
+
+Of course, Wallis knew that the ratio is $\pi \over 4$, he wanted to check if his theory(or in modern sense, a hypothesis) is correct in this case. However, $y=\sqrt{r^2-x^2}=(r^2-x^2)^{1 \over 2}$ is can't be directly expand because he knew nothing about any of **general binomial theorem** to expand fraction power like $(a+b)^{1 \over 2}$. So, he use his so called **interpolation** theorem to guess the answer.
+
+First he defined the general form $y=\left( r^{1 \over q} + x^{1 \over q} \right)^p$. And find all the ration when p and q are integers number. You can expand the expression and use the theory $\rho={1 \over (k+1)}$ to do that. Eventually, you would get the table like Figure_9 below
+
+<p align="center">
+  <img src="./images/calculusNotes_figure_9.svg"/>
+</p>
+
+Figure_9
+
+
+You can see that the table is symmetric along the diagonal elements.
+
+
+[binomial theorem proof](https://math.stackexchange.com/questions/1010877/binomial-theorem-proof-for-rational-index-without-calculus)
 
 Hundreds of years are gone. In 1656, , John Wallis published his Arithemtica infinitorum, in which he displayed many ideas that were to lead to the integral calculus of Newton, including the famous **Wallis Product** which gives below (check 
 [reference1: a paper talks about this](https://www.jstor.org/stable/25759727?seq=1) 
