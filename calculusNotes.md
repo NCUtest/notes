@@ -227,15 +227,25 @@ Now if we denote the ratio when $p={1 \over 2}$ and $q={1 \over 2}$ as $\Omega$,
 Figure_12
 
 
-Wallis argued that when $p={1 \over 2}$, $q={q \over 2}$, the even terms of that row should be $\frac{1 \cdot 3 \cdot 5 \cdot 7...n}{2 \cdot 4 \cdot 6 \cdot 8...\left( n-1 \right) }$. And when n grows larger, the ratio of n terms and n-2 terms which is 
+Wallis argued that when $p={1 \over 2}$, $q={q \over 2}$, the odd terms of that row should be $\frac{1 \cdot 3 \cdot 5 \cdot 7...n}{2 \cdot 4 \cdot 6 \cdot 8...\left( n-1 \right) }$. The ratio of n terms and n-2 terms in the row
 ```math
-\frac{\frac{3 \cdot 5 \cdot 7 \cdot 9 \cdot ...n}{2 \cdot 4 \cdot 6 \cdot 8 \cdot \left( n-1 \right)}}{\frac{3 \cdot 5 \cdot 7 \cdot 9 \cdot ... \left( n-2 \right) }{2 \cdot 4 \cdot 6 \cdot 8 \cdots ... \left( n-3 \right)}} = \frac{n}{ \left( n-2 \right) }
+\frac{\frac{3 \cdot 5 \cdot 7 \cdot 9 \cdot ...n}{2 \cdot 4 \cdot 6 \cdot 8 \cdot \left( n-1 \right)}}{\frac{3 \cdot 5 \cdot 7 \cdot 9 \cdot ... \left( n-2 \right) }{2 \cdot 4 \cdot 6 \cdot 8 \cdots ... \left( n-3 \right)}} = \frac{n}{ \left( n-1 \right) } \approx 1
 ```
- should get closer to $1$. Because n-th terms
+And we know that even terms is between odd terms, the value should be in between. This means the even terms would get closer to odd terms when n grows larger. So we can conclude that
 
-When the number of terms grows large enough, we should get
 ```math
 \Omega \cdot \frac{4 \cdot 6 \cdot 8 \cdot 10...}{3 \cdot 5 \cdot 7 \cdot 9...} \approx \frac{3 \cdot 5 \cdot 7 \cdot 9...}{2 \cdot 4 \cdot 6 \cdot 8}
+```
+
+And then we can get
+
+```math
+\Omega \approx \frac{3 \cdot 3 \cdot 5 \cdot 5 \cdot 7 \cdot 7 \cdot 9 \cdot 9...}{2 \cdot 4 \cdot 4 \cdot 6 \cdot 6 \cdot 8 \cdot 8 \cdot 10...}
+```
+
+And we know that $\Omega={4 \over \pi}$, so we can express $\pi$ as
+```math
+\pi \approx 2 \cdot \frac{2 \cdot 2 \cdot 4 \cdot 4 \cdot 4 cdot 6 \cdot 6 \cdot 8 \cdot 8...}{1 \cdot 3 \cdot 3 \cdot 5 \cdot 5 \cdot 7 \cdot 7 \cdot 9...}
 ```
 
 
