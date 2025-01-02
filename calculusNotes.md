@@ -218,7 +218,13 @@ Expand the fraction numbers, we get the result of Figure_11
 
 Figure_11
 
-You can see that the table is symmetric along the diagonal elements.
+Now if we denote the ratio when $p={1 \over 2}$ and $q={1 \over 2}$ as $\Omega$, a reasonable pattern should be as Figure_12 shows below:
+
+<p align="center">
+  <img src="./images/calculusNotes_figure_12.svg"/>
+</p>
+
+Figure_12
 
 
 [binomial theorem proof](https://math.stackexchange.com/questions/1010877/binomial-theorem-proof-for-rational-index-without-calculus)
