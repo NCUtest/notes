@@ -229,7 +229,7 @@ Figure_12
 
 Wallis argued that when $p={1 \over 2}$, $q={q \over 2}$, the even terms of that row should be $\frac{1 \cdot 3 \cdot 5 \cdot 7...n}{2 \cdot 4 \cdot 6 \cdot 8...\left( n-1 \right) }$. And when n grows larger, the ratio of n terms and n-2 terms which is 
 ```math
-\dfrac{\frac{1 \cdot 3 \cdot 5 \cdot 7 \cdots n}{2 \cdot 4 \cdot 6 \cdot 8 \cdots \left( n-1 \right)}}{\frac{1 \cdot 3 \cdot 5 \cdot 7 \cdots n}{2 \cdot 4 \cdot 6 \cdot 8 \cdots \left( n-1 \right)}}
+\frac{\frac{3 \cdot 5 \cdot 7 \cdot 9 \cdot ...n}{2 \cdot 4 \cdot 6 \cdot 8 \cdot \left( n-1 \right)}}{\frac{3 \cdot 5 \cdot 7 \cdot 9 \cdot ... \left( n-2 \right) }{2 \cdot 4 \cdot 6 \cdot 8 \cdots ... \left( n-3 \right)}} = \frac{n}{ \left( n-2 \right) }
 ```
  should get closer to $1$. Because n-th terms
 
