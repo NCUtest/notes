@@ -1,11 +1,16 @@
 # Chapter 1: Brief History
 
+Reference:
+----------
+[Wallis Table](https://www.quadrivium.info/GGB/WallisTable.html)
+[Proof of Binomial theorem](https://www.quadrivium.info/GGB/WallisTable.html)
+
 Definition:
 -----------
 
 Calculus, originally called infinitesimal calculus, is a mathematical discipline focused on limits, continuity, derivatives, integrals, and infinite series. 
 
-Before Calculus
+Ancient Age
 ---------------
 
 Before Calculus even existed, people deal with infinite problems with **Method of Exhaustion** which is basically using the idea of **convergent infinite sequence**. The classic issue is finding the area of a circle by Archimedes. Archimedes used the Method of Exhaustion to approximate the area of a circle by inscribing and circumscribing polygons with an increasing number of sides within the circle. By calculating the area of these polygons, Archimedes was able to create upper and lower bounds for the area of the circle. As the number of sides of the polygons increased, these bounds converged to the exact area, ultimately leading him to deduce that the area of a circle is $\pi r^{2}$.
@@ -140,6 +145,9 @@ Figure_5
 
   * For $k=3$, we are actually adding up the $1 \cdot n^3$ 4 dimension hypervolume.(Not possible to draw)
 
+Age of Renaissance
+------------------ 
+
 Time flies, and in the blink of an eye, 6 hundred years have passed. In 1656, during the late Renaissance, John Wallis, an important professor of mathematics and physics at the University of Oxford in England, referred to Alhazen's research and made many extensions.
 
 First, he used Cartesian coordinates to reformulate the geometric description of the sum of natural numbers raised to k-th power. He transfomed $\sum_{i=1}^{n}{i^k}$ into $y=x^k$. When n becomes sufficiently large, the area under the curve $y=x^k$ should closely approximates the sum $\sum_{i=1}^{n}{i^k}$.
@@ -234,7 +242,7 @@ Wallis argued that when $p={1 \over 2}$, $q={q \over 2}$, the odd terms of that 
 And we know that even terms is between odd terms, the value should be in between. This means the even terms would get closer to odd terms when n grows larger. So we can conclude that
 
 ```math
-\Omega \cdot \frac{4 \cdot 6 \cdot 8 \cdot 10...}{3 \cdot 5 \cdot 7 \cdot 9...} \approx \frac{3 \cdot 5 \cdot 7 \cdot 9...}{2 \cdot 4 \cdot 6 \cdot 8}
+\Omega \cdot \frac{4 \cdot 6 \cdot 8 \cdot 10...}{3 \cdot 5 \cdot 7 \cdot 9...} \approx \frac{3 \cdot 5 \cdot 7 \cdot 9...}{2 \cdot 4 \cdot 6 \cdot 8...}
 ```
 
 And then we can get
@@ -248,18 +256,7 @@ And we know that $\Omega={4 \over \pi}$, so we can express $\pi$ as
 \pi \approx 2 \cdot \frac{2 \cdot 2 \cdot 4 \cdot 4 \cdot 4 \cdot 6 \cdot 6 \cdot 8 \cdot 8...}{1 \cdot 3 \cdot 3 \cdot 5 \cdot 5 \cdot 7 \cdot 7 \cdot 9...}
 ```
 
-
-
-[binomial theorem proof](https://math.stackexchange.com/questions/1010877/binomial-theorem-proof-for-rational-index-without-calculus)
-
-Hundreds of years are gone. In 1656, , John Wallis published his Arithemtica infinitorum, in which he displayed many ideas that were to lead to the integral calculus of Newton, including the famous **Wallis Product** which gives below (check 
-[reference1: a paper talks about this](https://www.jstor.org/stable/25759727?seq=1) 
-[reference2: Mathematitcal_Intention_Wallis, another paper talks about this](https://www.quadrivium.info/GGB/WallisTable.html) 
-[reference3: a discussion talk about the prove of generalized binomial theorem](https://www.reddit.com/r/math/comments/8vv21s/how_do_you_prove_the_binomial_theorem_for_all/)
-
-```math
-{2 \over \pi} = {{1 \cdot 3} \over {2 \cdot 2}} \cdot {{3 \cdot 5} \over {4 \cdot 4}} \cdot {{5 \cdot 7} \over {6 \cdot 6}} \cdot...
-```
+This is the famous **Wallis Product**.
 
 Earlier in 1593, Vieta found another infinite product which gives $\pi$
 
@@ -267,9 +264,11 @@ Earlier in 1593, Vieta found another infinite product which gives $\pi$
 {2 \over \pi} = \sqrt{1 \over 2} \cdot \sqrt{{1 \over 2}+{1 \over 2} \cdot \sqrt{1 \over 2}} \cdot \sqrt{{1 \over 2}+{1 \over 2} \cdot {\sqrt{{1 \over 2}+{1 \over 2} \cdot \sqrt{1 \over 2}}}}... 
 ```
 
-But, since Wallis doesn't mention it, we suppose that he was unaware of it.(Remarkably, these two seemingly different products are special cases of a more general formula (3).) The thoughts that lead Wallis to (1) are quite surprising and ingeious. It is the purpose of this paper to show to modern readers the brilliance of Wallis' thinking in his disocvery of (1)
+But, since Wallis doesn't mention it, we suppose that he was unaware of it.(Remarkably, these two seemingly different products are special cases of a more general formula(not gonna talk in this moment).
 
-How Calculus created?
+Newton's Calculus
 ---------------------
+Newton was pretty much studying the same question as Wallis did which is find the area ratio of circle curve $\sqrt{1-x^2}$
+
 
 One thing to keep in mind is that Calculus is nothing more than an updated version of the Method of Exhuastion, but now it specifically deal with **Functions**. People have played algebra, geometry, and arithmetic for a long time. In 17th centuries, science was born and started to join the game. Many math problems were being researched again, like finding area of a shape, finding the length of curve or volume of some solid body. Most of them were written in algebraic expressions and equations. So a problem may like this in that time: How do we computer the area under a unit circle curve which is express as $\sqrt{1-x^2}$ under first quadrant of cartesian coordinates? We can use the Method of Exhaustion, take n number of small rectangles under the curve, and when n increases the more accurate the area we computer.   The term "Function" is created by Lebniz in 1694
