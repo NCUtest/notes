@@ -245,7 +245,7 @@ And then we can get
 
 And we know that $\Omega={4 \over \pi}$, so we can express $\pi$ as
 ```math
-\pi \approx 2 \cdot \frac{2 \cdot 2 \cdot 4 \cdot 4 \cdot 4 cdot 6 \cdot 6 \cdot 8 \cdot 8...}{1 \cdot 3 \cdot 3 \cdot 5 \cdot 5 \cdot 7 \cdot 7 \cdot 9...}
+\pi \approx 2 \cdot \frac{2 \cdot 2 \cdot 4 \cdot 4 \cdot 4 \cdot 6 \cdot 6 \cdot 8 \cdot 8...}{1 \cdot 3 \cdot 3 \cdot 5 \cdot 5 \cdot 7 \cdot 7 \cdot 9...}
 ```
 
 
