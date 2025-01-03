@@ -302,6 +302,30 @@ Newton's challenge was to represent $\left( 1-x^2 \right)^{1 \over 2}$ as an inf
 \vdots
 ```
 
+Now implement the method of interpolation of Wallis. Newton write the table like Figure_13 below
+
+<p align="center">
+  <img src="./images/calculusNotes_figure_13.svg"/>
+</p>
+
+Figure_13
+
+
+Of course, every row, you can see they are all $C^n_m$ which is combination problem. It's easy to prove that integer binomial theorem by induction. Newton put attention into the pattern of the column which should provide the value of non-integer $r$ power. The pattern of first colume is $1$. The pattern of second colume is $s$. The pattern of third column is the formula of arithmetic series $s {\left( s+1 \right) } \over 2$. So Newton got Figure_14 below:
+
+<p align="center">
+  <img src="./images/calculusNotes_figure_14.svg"/>
+</p>
+
+Figure_12
+
+
+Like most mathematicians, Newton believed that the fundamental forms of mathematics are omnipresent. Since the constant term is 1, the coefficient of the $x$ term is $r$, and the coefficient of the $x^2$ term is ${r \left( r-1 \right)} \over 2$, the coefficient of the $x^3$ term should be $r {\left( r-1 \right) \left( r-2 \right)} \over c$. Substituting $r=3$, we get $3 \cdot 2 \cdot 1 \cdot {1 \over c} = 1$, thus c = 6. Similar reasoning can continue, giving the coefficient of $x^4$ term in $\left( 1+x \right)^r$ as ${r \left( r-1 \right) \left( r-2 \right) \left( r-3 \right)} \over {4!}$, and the coefficient of $x^5$ term as ${r \left( r-1 \right) \left( r-2 \right) \left( r-3 \right) \left( r-4 \right) } \over {5!}$
+
+
+
+
+
 
 One thing to keep in mind is that Calculus is nothing more than an updated version of the Method of Exhuastion, but now it specifically deal with **Functions**. People have played algebra, geometry, and arithmetic for a long time. In 17th centuries, science was born and started to join the game. Many math problems were being researched again, like finding area of a shape, finding the length of curve or volume of some solid body. Most of them were written in algebraic expressions and equations. So a problem may like this in that time: How do we computer the area under a unit circle curve which is express as $\sqrt{1-x^2}$ under first quadrant of cartesian coordinates? We can use the Method of Exhaustion, take n number of small rectangles under the curve, and when n increases the more accurate the area we computer.   The term "Function" is created by Lebniz in 1694
 
