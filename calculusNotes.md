@@ -317,12 +317,35 @@ Of course, every row, you can see they are all $C^n_m$ which is combination prob
   <img src="./images/calculusNotes_figure_14.svg"/>
 </p>
 
-Figure_12
+Figure_14
 
 
-Like most mathematicians, Newton believed that the fundamental forms of mathematics are omnipresent. Since the constant term is 1, the coefficient of the $x$ term is $r$, and the coefficient of the $x^2$ term is ${r \left( r-1 \right)} \over 2$, the coefficient of the $x^3$ term should be $r {\left( r-1 \right) \left( r-2 \right)} \over c$. Substituting $r=3$, we get $3 \cdot 2 \cdot 1 \cdot {1 \over c} = 1$, thus c = 6. Similar reasoning can continue, giving the coefficient of $x^4$ term in $\left( 1+x \right)^r$ as ${r \left( r-1 \right) \left( r-2 \right) \left( r-3 \right)} \over {4!}$, and the coefficient of $x^5$ term as ${r \left( r-1 \right) \left( r-2 \right) \left( r-3 \right) \left( r-4 \right) } \over {5!}$
+Like most mathematicians, Newton believed that the fundamental forms of mathematics are omnipresent. Since the constant term is 1, the coefficient of the $x$ term is $r$, and the coefficient of the $x^2$ term is ${r \left( r-1 \right)} \over 2$, the coefficient of the $x^3$ term should be $r {\left( r-1 \right) \left( r-2 \right)} \over c$. Substituting $r=3$, we get $3 \cdot 2 \cdot 1 \cdot {1 \over c} = 1$, thus c = 6. Similar reasoning can continue, giving the coefficient of $x^4$ term in $\left( 1+x \right)^r$ as ${r \left( r-1 \right) \left( r-2 \right) \left( r-3 \right)} \over {4!}$, and the coefficient of $x^5$ term as ${r \left( r-1 \right) \left( r-2 \right) \left( r-3 \right) \left( r-4 \right) } \over {5!}$. With all the formula, Newton' complete the table Figure_15 below:
+
+<p align="center">
+  <img src="./images/calculusNotes_figure_15.svg"/>
+</p>
+
+Figure_15
+
+Accoding to the table Figure_15, we can conclude
+
+```math
+\displaystyle  (1+x)^r=1+rx+\frac{r(r-1)}{2!}x^2+\frac{r(r-1)(r-2)}{3!}x^3+\cdots
+```
+if $r$ is real number, k is integer, define binomial coefficient:
 
 
+```math
+\displaystyle  \binom{r}{0}=1,~~\binom{r}{k}=\frac{r(r-1)\cdots(r-k+1)}{k!},~~k\ge 1
+```
+
+which can be express by binomial coefficients:
+
+```math
+\displaystyle  (1+x)^r=\binom{r}{0}+\binom{r}{1}x+\binom{r}{2}x^2+\binom{r}{3}x^3+\cdots
+```
+This is the general binomial theorem for $r\in R$.
 
 
 
