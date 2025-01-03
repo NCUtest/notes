@@ -1,10 +1,5 @@
 # Chapter 1: Brief History
 
-Reference:
-----------
-[Wallis Table](https://www.quadrivium.info/GGB/WallisTable.html)
-[Proof of Binomial theorem](https://www.quadrivium.info/GGB/WallisTable.html)
-
 Definition:
 -----------
 
@@ -266,9 +261,53 @@ Earlier in 1593, Vieta found another infinite product which gives $\pi$
 
 But, since Wallis doesn't mention it, we suppose that he was unaware of it.(Remarkably, these two seemingly different products are special cases of a more general formula(not gonna talk in this moment).
 
-Newton's Calculus
+Newton's general binomial theorem
 ---------------------
-Newton was pretty much researching a highly similar question as Wallis: Finding infinite expansion of the circle curve $\sqrt{1-x^2}$
+In 1676, Gottfried Wilhelm Leibniz inquired with Isaac Newton about the discovery process of the general binomial theorem. On June 13th, Newton responded through Henry Oldenburg, the Secretary of the Royal Society. In his letter, Newton wrote the following infinite series, referring to it as a theorem:
+
+```math
+(P+PQ){m/n}=P{m/n}+\frac{m}{n}AQ+\frac{m-n}{2n}BQ+\frac{m-2n}{3n}CQ+\frac{m-3n}{4n}DQ+\cdots
+```
+Newton explained that $P+PQ$ is the binomial considered, where P is the first term and $Q$ is the remaining term divided by $P$. The ratio $m \over n$ can be integer or a fraction, positive or negative. He provided an example for $\left( a^3+bbx \right)^-{2 \over 3}$, $P=a^3$, $Q={bbx \over a^3}$, $m=-2$ and $n=3$. On the right side of the equation, A represents the first term $P^{m \over n}$, B represents the second term $m \over n AQ$, and so on. In other words, $\left( P+PQ \right)^{m \over n} = A + B + C + D + ...$. From a modern perspective, Newton's formula might seem obscure and complex. Why does $P$ appear twice? Why not write $P+PQ$ as $P+Q$? Moreover, why not expand the terms on the right side of the equatoin and list the explicit expressions for $A$, $B$, $C$ and $D$? The reason is that Newton aimed to simplify the calculations, which will be explained later. Our first discussion is Leibniz's question: how did Newton arrive at this formula?
+
+After receiving the letter, Leibniz expressed a desire for more detailed information. Consequently, on October 24th of the same year, Newton sent a second letter. In it, he explained how he was inspired by John Wallis's method of interpolation to derive the appropriate formula, even revealing that he had known about the method since he was a student at Cambridge University, 12 years prior. The precursor to Newton's discovery of the binomial theorem was the problem of calculating the value of $\pi$. Considering the area of the first quadrant of a unit circle $x^2+y^2=1$
+
+, the calculation is as follows:
+
+```math
+\displaystyle \frac{\pi}{4}=\int_0^1\sqrt{1-x^2}dx
+```
+
+Newton's challenge was to represent $\left( 1-x^2 \right)^{1 \over 2} as an infinite series. Following in Wallis's footsteps, he examined the simpler expansion of $\left( 1+x \right)^r$. When r is integer, the first few terms are:
+
+```math
+\left( 1+x \right)^0 = 1 + 0 \cdot x + 0 \cdot x^2 + 0 \cdot x^3 + 0 \cdot x^4 + 0 \cdot x^5 + ...
+```
+```math
+\left( 1+x \right)^1 = 1 + 1 \cdot x + 0 \cdot x^2 + 0 \cdot x^3 + 0 \cdot x^4 + 0 \cdot x^5 + ...
+```
+```math
+\left( 1+x \right)^2 = 1 + 2 \cdot x + 1 \cdot x^2 + 0 \cdot x^3 + 0 \cdot x^4 + 0 \cdot x^5 + ...
+```
+```math
+\left( 1+x \right)^3 = 1 + 3 \cdot x + 3 \cdot x^2 + 1 \cdot x^3 + 0 \cdot x^4 + 0 \cdot x^5 + ...
+```
+```math
+\left( 1+x \right)^4 = 1 + 4 \cdot x + 6 \cdot x^2 + 4 \cdot x^3 + 1 \cdot x^4 + 0 \cdot x^5 + ...
+```
+```math
+\left( 1+x \right)^5 = 1 + 5 \cdot x + 10 \cdot x^2 + 10 \cdot x^3 + 5 \cdot x^4 + 1 \cdot x^5 + ...
+```
+```math
+\vdots
+```
 
 
 One thing to keep in mind is that Calculus is nothing more than an updated version of the Method of Exhuastion, but now it specifically deal with **Functions**. People have played algebra, geometry, and arithmetic for a long time. In 17th centuries, science was born and started to join the game. Many math problems were being researched again, like finding area of a shape, finding the length of curve or volume of some solid body. Most of them were written in algebraic expressions and equations. So a problem may like this in that time: How do we computer the area under a unit circle curve which is express as $\sqrt{1-x^2}$ under first quadrant of cartesian coordinates? We can use the Method of Exhaustion, take n number of small rectangles under the curve, and when n increases the more accurate the area we computer.   The term "Function" is created by Lebniz in 1694
+
+
+Reference:
+----------
+[Wallis Table](https://www.quadrivium.info/GGB/WallisTable.html)
+[Proof of Binomial theorem](https://www.quadrivium.info/GGB/WallisTable.html)
+
