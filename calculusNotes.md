@@ -261,7 +261,7 @@ Earlier in 1593, Vieta found another infinite product which gives $\pi$
 
 But, since Wallis doesn't mention it, we suppose that he was unaware of it.(Remarkably, these two seemingly different products are special cases of a more general formula(not gonna talk in this moment).
 
-Newton's general binomial theorem
+Newton's General Binomial theorem
 ---------------------
 In 1676, Gottfried Wilhelm Leibniz inquired with Isaac Newton about the discovery process of the general binomial theorem. On June 13th, Newton responded through Henry Oldenburg, the Secretary of the Royal Society. In his letter, Newton wrote the following infinite series, referring to it as a theorem:
 
@@ -368,21 +368,27 @@ Most importantly, with general binomial theorem, we can use it to find any deriv
 ```
 If $dx$ is infinitely small, we conclude that
 ```math
-dx^r = \displaystyle \binom{r}{1}x^{r-1} =
+dx^r = 
+```
+```math
+\displaystyle \binom{r}{1}x^{r-1} =
 ```
 ```math
 rx^{r-1}
 ```
 
+With this result we can deal with any polylnomial.
 
-
-
+Proof of General Binomial theorem
+---------------------------------
+Although Newton didn't prove that, there's actually some way to prove.
 
 One thing to keep in mind is that Calculus is nothing more than an updated version of the Method of Exhuastion, but now it specifically deal with **Functions**. People have played algebra, geometry, and arithmetic for a long time. In 17th centuries, science was born and started to join the game. Many math problems were being researched again, like finding area of a shape, finding the length of curve or volume of some solid body. Most of them were written in algebraic expressions and equations. So a problem may like this in that time: How do we computer the area under a unit circle curve which is express as $\sqrt{1-x^2}$ under first quadrant of cartesian coordinates? We can use the Method of Exhaustion, take n number of small rectangles under the curve, and when n increases the more accurate the area we computer.   The term "Function" is created by Lebniz in 1694
 
 
+
 Reference:
 ----------
-[Wallis Table](https://www.quadrivium.info/GGB/WallisTable.html)
-[Proof of Binomial theorem](https://www.quadrivium.info/GGB/WallisTable.html)
+[Wallis Table](https://www.quadrivium.info/GGB/WallisTable.html)<br>
+[Proof of Binomial theorem](https://math.stackexchange.com/questions/1010877/binomial-theorem-proof-for-rational-index-without-calculus)
 
