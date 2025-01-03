@@ -278,7 +278,7 @@ After receiving the letter, Leibniz expressed a desire for more detailed informa
 \displaystyle \frac{\pi}{4}=\int_0^1\sqrt{1-x^2}dx
 ```
 
-Newton's challenge was to represent $\left( 1-x^2 \right)^{1 \over 2} as an infinite series. Following in Wallis's footsteps, he examined the simpler expansion of $\left( 1+x \right)^r$. When r is integer, the first few terms are:
+Newton's challenge was to represent $\left( 1-x^2 \right)^{1 \over 2}$ as an infinite series. Following in Wallis's footsteps, he examined the simpler expansion of $\left( 1+x \right)^r$. When $r$ is integer, the first few terms are:
 
 ```math
 \left( 1+x \right)^0 = 1 + 0 \cdot x + 0 \cdot x^2 + 0 \cdot x^3 + 0 \cdot x^4 + 0 \cdot x^5 + ...
