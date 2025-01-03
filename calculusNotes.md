@@ -349,7 +349,11 @@ This is the general binomial theorem for $r\in R$.
 
 However, Newton didn't provide any proof of this just like Wallis didn't provide any proof of his interpolation method. All the arguments above are empirical, which means not stricly valid in sense of Euclidean process. But Newton did provide a lot of example to gain the confidence that the theory works.
 
-Most importantly, with general binomial theorem, we can use it find the formula of derivative of any function express as $f(x) = x^r$, for $r\in R$.
+Most importantly, with general binomial theorem, we can use it to find any derivative of any function that can be expressed as $f(x) = x^r$, for $r\in R$. 
+
+```math
+f\left( x+dx \right)^r - f\left( x \right) \over dx = {\left( x + dx \right)^r - x^r} \over dx = \displaystyle  (x+dx)^r=\binom{r}{0}x^r dx^0+\binom{r}{1}x^{r-1} dx^1+\binom{r}{2}x^{r-2} dx^2+\binom{r}{3}x^{r-3} dx^3+\cdots
+```
 
 
 
