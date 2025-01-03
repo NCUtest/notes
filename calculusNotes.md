@@ -352,7 +352,7 @@ However, Newton didn't provide any proof of this just like Wallis didn't provide
 Most importantly, with general binomial theorem, we can use it to find any derivative of any function that can be expressed as $f(x) = x^r$, for $r\in R$. 
 
 ```math
-{f\left( x+dx \right)^r - f\left( x \right)} \over {dx} = {\left( x + dx \right)^r - x^r} \over {dx} = \displaystyle  (x+dx)^r=\binom{r}{0}x^r dx^0+\binom{r}{1}x^{r-1} dx^1+\binom{r}{2}x^{r-2} dx^2+\binom{r}{3}x^{r-3} dx^3+\cdots
+\frac{f\left( x+dx \right)^r - f\left( x \right)}{dx} = \frac{\left( x + dx \right)^r - x^r}{dx} = \displaystyle  (x+dx)^r=\binom{r}{0}x^r dx^0+\binom{r}{1}x^{r-1} dx^1+\binom{r}{2}x^{r-2} dx^2+\binom{r}{3}x^{r-3} dx^3+\cdots
 ```
 
 
