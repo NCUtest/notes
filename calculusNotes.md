@@ -328,7 +328,7 @@ Like most mathematicians, Newton believed that the fundamental forms of mathemat
 
 Figure_15
 
-Accoding to the table Figure_15, we can conclude
+At this point, we can conclude
 
 ```math
 \displaystyle  (1+x)^r=1+rx+\frac{r(r-1)}{2!}x^2+\frac{r(r-1)(r-2)}{3!}x^3+\cdots
@@ -346,6 +346,11 @@ which can be express by binomial coefficients:
 \displaystyle  (1+x)^r=\binom{r}{0}+\binom{r}{1}x+\binom{r}{2}x^2+\binom{r}{3}x^3+\cdots
 ```
 This is the general binomial theorem for $r\in R$.
+
+However, Newton didn't provide any proof of this just like Wallis didn't provide any proof of his interpolation method. All the arguments above are empirical, which means not stricly valid in sense of Euclidean process. But Newton did provide a lot of example to gain the confidence that the theory works.
+
+Most importantly, with general binomial theorem, we can use it find the formula of derivative of any function express as $f(x) = x^r$, for $r\in R$.
+
 
 
 
