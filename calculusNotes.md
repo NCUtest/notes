@@ -358,7 +358,20 @@ Most importantly, with general binomial theorem, we can use it to find any deriv
 \frac{\left( x + dx \right)^r - x^r}{dx} = 
 ```
 ```math
-\displaystyle \frac{\binom{r}{0}x^r dx^0+\binom{r}{1}x^{r-1} dx^1+\binom{r}{2}x^{r-2} dx^2+\binom{r}{3}x^{r-3} dx^3+\cdots}{dx}
+\displaystyle \frac{\binom{r}{0}x^r dx^0+\binom{r}{1}x^{r-1} dx^1+\binom{r}{2}x^{r-2} dx^2+\binom{r}{3}x^{r-3} dx^3+\cdots -x^2}{dx} = 
+```
+```math
+\displaystyle \frac{\binom{r}{1}x^{r-1} dx^1+\binom{r}{2}x^{r-2} dx^2+\binom{r}{3}x^{r-3} dx^3+\cdots}{dx} =
+```
+```math
+\displaystyle \binom{r}{1}x^{r-1}+\binom{r}{2}x^{r-2} dx+\binom{r}{3}x^{r-3} dx^2+\cdots =
+```
+If $dx$ is infinitely small, we conclude that
+```math
+dx^r = \displaystyle \binom{r}{1}x^{r-1} =
+```
+```math
+rx^{r-1}
 ```
 
 
