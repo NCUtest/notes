@@ -394,4 +394,5 @@ Reference:
 ----------
 [Wallis Table](https://www.quadrivium.info/GGB/WallisTable.html)<br>
 [Proof of Binomial theorem](https://math.stackexchange.com/questions/1010877/binomial-theorem-proof-for-rational-index-without-calculus)
+[Proof_differentiation_without_Binomial_theorem](https://www.quora.com/Can-you-prove-derivative-of-x-n-nx-n-1-for-all-real-values-of-n-without-using-either-binomial-theorem-or-taking-natural-log-of-both-sides)
 
